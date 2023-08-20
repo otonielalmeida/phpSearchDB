@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tangerine&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tangerine", cursive;
+  font-size: 1.2em;
+}
+body {
+  background-image: url(./images/bavarian\ alps.jpg);
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 15%;
+  width: 50%;
+  margin-top: 2.5%;
+}
